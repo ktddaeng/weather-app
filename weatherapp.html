@@ -1,0 +1,34 @@
+<!doctype HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Weather App</title>
+	<link rel="stylesheet" href="weatherapp.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <link rel="shortcut icon" id="favicon" href="standard/standard32B.png">
+</head>
+
+<body onload="init()" id="hot">
+    <div id = "input">
+        <input type="text" id="zip" placeholder="Enter a location and press enter..." autofocus="autofocus" onclick="clearInput(this)" onkeypress="keyPr()">
+        <button onclick='checkNeko()' id = "neko">NEKO OFF</button>
+    </div>
+    <img id="bg" src="./standard/1.png" alt="neko" draggable="false">
+<div class = "wrap">
+    <div id="contents" class="xxx"></div>
+    
+    <div class="xxx">
+        <div id="contents2"></div>
+    </div>
+</div>    
+
+    <div class="footer">        
+    <p class="credit">
+        <a href="https://www.yahoo.com/?ilc=401" target="_blank" class="credit"> <img src="https://poweredby.yahoo.com/white.png" width="134" height="29" alt="Powered by Yahoo"/> </a>
+        Designed by Michelle Lee and Andy Ling<br>
+        Good Weather Icon Set by Yorlmar Campos from Noun Project<br>
+        Code by Kim Dang</p>
+    </div>
+<script src="weatherapp.js"></script>
+</body>
+</html>

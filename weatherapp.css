@@ -1,0 +1,445 @@
+/* Roboto is a free alternative to Helvetica Neue*/
+html{
+}
+body{
+    font-family: 'Roboto', 'Arial', sans-serif;
+    color: #fff;
+}
+
+/* Div containers*/
+
+div.input {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    vertical-align: middle;
+}
+div.wrap {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;    
+}
+
+@media screen and (min-width:700px) {
+    h1{
+        font-size: 300%;
+        text-align: left;
+        line-height: .5;
+    }
+    div.xxx {
+        display: inline-block;
+        vertical-align: middle;
+        margin: auto;    
+        padding-bottom: 5px;
+        padding-top: 3%;
+        width: 30%;
+        min-width: 290px;
+        max-width: 400px;
+    }
+    #contents{
+        color: #fff;
+        margin-bottom: 5%;
+    }
+    #contents2{
+        overflow-y: scroll;
+        max-height: 75vh;
+        width: 350px;    
+    }
+
+    ::-webkit-scrollbar {
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: rgba(255,255,255,.3);
+    }
+    ::-webkit-scrollbar-thumb
+    {
+        border-radius: 10px;
+        background-color: rgba(255,255,255,.5);
+    }
+}
+@media screen and (max-width:699px) {
+    h1{
+        font-size: 250%;
+        text-align: center;
+        width: 100%;
+    }
+    #contents{
+        vertical-align: middle;
+        margin: auto;    
+        padding-bottom: 10px;
+        width: 50%;
+        min-width: 290px;
+        max-width: 400px;
+        color: #fff;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    #contents2{
+        max-height: 70vh;
+        min-width: 100%;    
+    }
+}
+    /*current*/
+    #conDi{
+        height: 70px;
+        
+        top: 50%;
+        line-height: .1;
+        background-color: darkslategray;        
+    }
+    
+    .dda{
+        text-align: left;
+        height: 90px;
+    }
+    .ddb{
+        display: inline-block;
+        height:100px;
+        width:100%;
+        text-align: center;
+        margin-left: 10%;
+    }
+    .tt1{
+        padding-top: 5%;
+        color: rgba(255,255,255,.8);
+        font-size: large;
+    }
+    .tt2{
+        font-size: x-large;
+        font-family: 'Verdana', 'Arial-Black', sans-serif;
+    }
+    .tt3 {
+        float: left;
+        vertical-align: middle;
+        font-size: large;
+        color: rgba(255,255,255,.7);
+        line-height: 100px;
+    }
+    #tt4 {
+        color: rgba(255,255,255,1);
+        font-size: 100px;
+    }
+    @media screen and (min-width:700px) {
+        .tt5 {
+            text-align: center;
+            margin-right: 30%;
+        }
+    }
+    @media screen and (max-width:699px) {
+        .tt5 {
+            text-align: center;
+        }
+    }
+    img.stat {
+        width: 90px;
+        padding-right: 20px;
+        height: auto;
+        float: left;
+    }
+
+    /*forecast*/
+
+@media screen and (min-width:700px) {
+    div.scr{
+        height: 90px;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+        text-align: left;
+    }
+    img.scr-im{
+        width: 80px;
+        height: auto;
+        float: left;
+        padding-right: 20px;
+    }
+    img.scr-im2{
+        width: 10px;
+        height: auto;
+    }
+    .d22{
+        padding-top: 5px;
+    }
+    
+    #fb_dark{
+        background-color: rgba(255,255,255,.15);
+    }
+    #fb_light{
+        background-color: rgba(255,255,255,.05);
+    }    
+}
+@media screen and (min-width:500px) and (max-width:699px){
+    div.scr{
+        height: 90px;
+        padding-top: 15px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    #fb_dark{
+        background-color: rgba(255,255,255,.15);
+    }
+    #fb_light{
+        background-color: rgba(255,255,255,.05);
+    }
+    .d22{
+        height: 90px;
+        float: left;
+        vertical-align: middle;
+        padding-top: 1%;
+        padding-left: 8%;
+        max-width: 39%;
+    }
+    .t3{        
+        height: 30px;
+        float: right;
+        position: relative;
+        padding-right: 10%;
+        padding-top: 6%;
+    }
+    
+    img.scr-im2{
+        width: 10px;
+        height: auto;
+    }
+    img.scr-im{
+        width: 80px;
+        height: auto;
+        float: left;
+        padding-left: 5%;
+    }
+}
+@media screen and (max-width:499px) {
+    div.scr{
+        height: 90px;
+        padding-top: 15px;
+        padding-left: 30px;
+        text-align: left;        
+    }
+    .d22{
+        padding-left: 40%;
+    }
+    .t3{
+        padding-left: 40%;
+    }
+    #fb_dark{
+        background-color: rgba(255,255,255,.15);
+    }
+    #fb_light{
+        background-color: rgba(255,255,255,.05);
+    }
+    img.scr-im{
+        width: 80px;
+        height: auto;
+        float: left;
+        padding-left: 10%;
+    }
+    img.scr-im2{
+        width: 10px;
+        height: auto;
+    }
+}
+    .t2 {
+        font-family: 'Verdana', 'Arial-Black', sans-serif;
+        font-size: large;
+    }
+    
+
+/*Input*/
+
+@media screen and (min-width:700px) {
+    input#zip {
+        background-color:rgba(255,255,255,.2);
+        font-family:'Helvetica Neue',sans-serif;
+        font-size: large;
+        line-height:30px;
+        border: 1px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius:20px;
+        -moz-border-radius:20px;
+        width:50%;
+        height:32px;
+        padding-left: 10px;
+        background-image: url('noun_378066_cc.png');
+        background-size: 22px;
+        background-position: 98%;
+        background-repeat: no-repeat;
+    }
+    input, select, textarea{
+        color: #fff;
+    }
+    div#input {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:699px) {
+    input#zip {
+        background-color:rgba(255,255,255,.2);
+        font-family:'Helvetica Neue',sans-serif;
+        font-size: large;
+        line-height:30px;
+        border: 1px;
+        border-style: solid;
+        border-width: 1px;
+        border-radius:20px;
+        -moz-border-radius:20px;
+        width: 90%;
+        height:32px;
+        padding-left: 10px;
+        background-image: url('noun_378066_cc.png');
+        background-size: 22px;
+        background-position: 98%;
+        background-repeat: no-repeat;
+    }
+    input, select, textarea{
+        color: #fff;
+    }
+    div#input {
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        height: 100px;
+        padding-top: 10px;
+    }
+}
+
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 20px #fff;
+}
+
+::-webkit-input-placeholder {
+    font-family:'Helvetica Neue',sans-serif;
+    color:rgba(255,255,255,.7);
+}
+:-moz-placeholder { /* Firefox 18- */
+   color:rgba(255,255,255,.7);
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color:rgba(255,255,255,.7);
+}
+:-ms-input-placeholder {  
+   color:rgba(255,255,255,.7);
+}
+
+@media screen and (min-width:700px) {
+    button#neko {
+        background-color:rgba(255,255,255,.3);
+        color:#fff;
+        font-family:'Helvetica Neue',sans-serif;
+        font-size: small;
+        line-height:30px;
+        border-radius:20px;
+        -moz-border-radius:20px;
+        border:0;
+        width:100px;
+        height:32px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+    }
+    #bg{
+        position: absolute;
+        left: 5%;
+        top: 7%;
+        opacity: 0.2;
+        filter: alpha(opacity=20);
+        z-index: -1;
+    }
+}
+@media screen and (max-width:699px) {
+    button#neko {
+        background-color:rgba(255,255,255,.3);
+        color:#fff;
+        font-family:'Helvetica Neue',sans-serif;
+        font-size: small;
+        border-radius:20px;
+        -moz-border-radius:20px;
+        border:0;
+        width:90%;
+        height:32px;
+        margin-top: 20px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;        
+    }
+    
+    #bg{
+        position:absolute;
+        left: 50px;
+        top: 100px;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+
+button#neko:focus{
+    outline: none;
+    box-shadow: 0 0 20px #fff;
+}
+
+button#neko:hover {
+    background-color:rgba(255,255,255,.5);
+}
+
+/*Misc*/
+
+a.credit{
+    float: right; 
+}
+
+@media screen and (min-width:700px) {
+    .footer{
+        /*the required clear property for float elements*/
+        clear: both;
+        position: absolute;
+        bottom: 0;
+        width: 93%;
+        font-size: 10px;
+        margin: 20px;
+    }
+    
+    
+}
+
+@media screen and (max-width:699px) {
+    .footer{
+        /*the required clear property for float elements*/
+        clear: both;
+        font-size: 10px;
+        margin: 20px;
+        padding-top: 20px;
+    }
+}
+
+
+/*Background*/
+#hot {
+    min-height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #FF9359; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#E2395D, #FF9359); /* For Safari 5.1 to 6.0 */
+    background: #B21537; /* For browsers that do not support gradients */
+    background: -o-linear-gradient(#E2395D, #FF9359); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E2395D, #FF9359); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E2395D, #FF9359); /* Standard syntax */
+}
+#cold {
+    min-height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #6598CA; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#3048A9, #6598CA); /* For Safari 5.1 to 6.0 */
+    background: #B21537; /* For browsers that do not support gradients */
+    background: -o-linear-gradient(#3048A9, #6598CA); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3048A9, #6598CA); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3048A9, #6598CA); /* Standard syntax */
+}
